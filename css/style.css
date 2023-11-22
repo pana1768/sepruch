@@ -26,7 +26,6 @@ body {
 }
 .photo:hover{
     transform: scale(2) rotate(360deg);
-    transform: 
 }
 
 .card-title{
@@ -49,7 +48,7 @@ body {
     list-style-position:inside;
     font-size: 18px;
 }
-.link{
+.linka{
     text-decoration: none;
     color: black;
 }
