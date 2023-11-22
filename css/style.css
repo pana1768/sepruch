@@ -9,7 +9,7 @@ body {
 
 .card {
     width: 500px;
-    margin: 60px auto;
+    margin: 150px auto;
     background-color: white;
     box-shadow: 0 9px 7px #ccc;
     border-radius: 10px;
@@ -21,7 +21,12 @@ body {
     height: 400px;
     display:   block;
     margin: 0 auto;
-    border-radius: 50%
+    border-radius: 50%;
+    transition: 2s;
+}
+.photo:hover{
+    transform: scale(2) rotate(360deg);
+    transform: 
 }
 
 .card-title{
@@ -44,7 +49,7 @@ body {
     list-style-position:inside;
     font-size: 18px;
 }
-.linka{
+.link{
     text-decoration: none;
     color: black;
 }
