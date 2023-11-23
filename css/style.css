@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 body {
     background-color: rgb(159, 199, 151); 
     font-family: Tahoma;
@@ -65,12 +64,15 @@ body {
     color: #E0FFFF;
 }
 @media (max-width: 980px){
-    body{
-        font-family: inherit;
-    }
     .photo{
         width: 100px;
         height: 100px;
+    }
+    .card-text{
+        margin: 0 0 0 25%;
+        font-size: 24px;
+        font-family: serif;
+    
     }
     .card{
         width: 25%;
@@ -81,5 +83,8 @@ body {
         padding: 20px;
         padding: 20px;
         margin-bottom: 150%;
+    }
+    .ulka{
+        font-family: serif;
     }
 }
