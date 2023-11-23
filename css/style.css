@@ -1,17 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 body {
     background-color: rgb(159, 199, 151); 
     font-family: Tahoma;
     line-height: 1.5;
     font-size: 18px;
     margin: 0;
-    background: url("../imag/back.jpg")
+    background: url("../imag/bg.gif") no-repeat;
+    height: 100%;
+    background-size: cover;
+    font-family: 'Ephesis', cursive;
+    color: #E0FFFF;
 }
 
 .card {
-    width: 500px;
-    margin: 150px auto;
-    background-color: white;
-    box-shadow: 0 9px 7px #ccc;
+    width: 20%;
+    margin: 100px auto;
+    /*background-color:white;*/
+    box-shadow:0 7px 7px 7px #ccc;
     border-radius: 10px;
     padding: 20px;
 }
@@ -26,29 +31,37 @@ body {
 }
 .photo:hover{
     transform: scale(2) rotate(360deg);
+    transform: 
 }
 
 .card-title{
     margin: 0 auto;
     text-align: center;
-    color: #5e3838;
 }
 .card-text{
     width: 500px;
-    margin: 0 auto;
-    font-size: 18px;
+    margin: 0 0 0 120px;
+    font-size: 24px;
 }
-
-.mynav{
-    color: darkgray;
+.lol1{
+    margin-left: 25%;
+    width: 15%;
+    position: absolute;
 }
-
+.lol2{
+    margin-top: 1%;
+    margin-left: 63%;
+    width: 10%;
+    position: absolute;
+}
 .ulka{
     padding-left: 0;
     list-style-position:inside;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: 'Ephesis', cursive;
+    
 }
-.linka{
+.link{
     text-decoration: none;
-    color: black;
+    color: #E0FFFF;
 }
