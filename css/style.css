@@ -8,7 +8,7 @@ body {
     background: url("../imag/bg.gif") no-repeat;
     height: 100%;
     background-size: cover;
-    font-family: 'Ephesis', cursive;
+    font-family: cursive;
     color: #E0FFFF;
 }
 
@@ -57,7 +57,7 @@ body {
     padding-left: 0;
     list-style-position:inside;
     font-size: 20px;
-    font-family: 'Ephesis', cursive;
+    font-family: cursive;
     
 }
 .link{
